@@ -1,10 +1,13 @@
-import React from 'react';
-
+import React from "react";
+import Button from "./components/Button";
+import Formulario from "./components/Form";
+import Lista from "./components/List";
 
 function App() {
   return (
     <div className="App">
-      Hello 
+      <Formulario />
+      <Lista />
     </div>
   );
 }
