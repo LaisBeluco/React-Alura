@@ -1,11 +1,14 @@
-export function Relogio() {
+import React from "react";
+import style from './relogio.module.scss';
+
+export default function Relogio() {
   return (
-    <div>
-      <span>0</span>
-      <span>0</span>
-      <span>:</span>
-      <span>0</span>
-      <span>0</span>
-    </div>
+    <React.Fragment>
+      <span className={style.relogioNumero}>0</span>
+      <span className={style.relogioNumero}>0</span>
+      <span className={style.relogioDivisao}>:</span>
+      <span className={style.relogioNumero}>0</span>
+      <span className={style.relogioNumero}>0</span>
+    </React.Fragment>
   );
 }
